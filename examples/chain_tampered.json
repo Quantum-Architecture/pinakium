@@ -1,0 +1,48 @@
+[
+ {
+  "body": {
+   "type": "AUTHENTICITY",
+   "work_id": "PK-DEMO-0001",
+   "work": {
+    "title": "Demo Work n° 1",
+    "medium": "photography",
+    "date": "2026"
+   },
+   "image_sha256": "ab00a722cf537da73a4280ab94209f3c3b69f140ddf7c765208db8f5502726ee",
+   "artist": "Demo Artist",
+   "artist_pub": "5d525dda43b5438ec8bffd13ddb45e28b1d1d7b3eaa5e4dced72fa6a5f8c268b",
+   "grading": {
+    "classification": "human",
+    "label": "Human-made",
+    "confidence": "0.9"
+   },
+   "issued_at": 1790412252,
+   "notice": "Demo certificate — DEMO KEYS, not a real work."
+  },
+  "sig": "08de9b0eda3b8a1b24ce38b0918a4f777ac0cdadc45b4841dd749d36c6cf14bd87da57cf24e6a3eb6e0cf3421cde4ad4675366b038526a613b48bb9abc255302"
+ },
+ {
+  "body": {
+   "type": "TRANSFER",
+   "work_id": "PK-DEMO-0001",
+   "prev": "08b3a64bf5316a853b31d3738a4033c3d385494cde913dd5321373a3a6d1e3d4",
+   "from_pub": "5d525dda43b5438ec8bffd13ddb45e28b1d1d7b3eaa5e4dced72fa6a5f8c268b",
+   "to_pub": "f2f7431d1bfb11f5d579ee2cbe382de5513456c82fb4e0cc0877b7811920697b",
+   "at": 1790500001
+  },
+  "sig": "d7e0438f7fb037dc36183e41008dcc206a58495a483bb8949aae780c0b26aec5ffb3ce7ffa74edde4eb84d6229a79127ea1ff60a9f43a337ebc869400cb33706",
+  "accept_sig": "1a209e9d530145f2b2fde4f24406ecf6ac3186bb4920b04760b6a42293b275a56147198513d15329de52cffff6705aa17d06f32b99e37bd933e841afff23a903"
+ },
+ {
+  "body": {
+   "type": "TRANSFER",
+   "work_id": "PK-DEMO-0001",
+   "prev": "c2431d2a8296ce0cfab5e962c825d0aa9d99ff7711b11583a82eac244635f308",
+   "from_pub": "f2f7431d1bfb11f5d579ee2cbe382de5513456c82fb4e0cc0877b7811920697b",
+   "to_pub": "287c4f00d595c8fb517a2486699962d8c0d2729b0ea88fb1dbc608bdd13c9c57",
+   "at": 1790600000
+  },
+  "sig": "24e08de7a7777eec9b4d123f9b054c24a6a2aeccb1a4dc1f7024a14c862c43cd40c0c1feef8cdaabe703f9cd77dcc3495dd643c4d9c571d7bf47158276fb3507",
+  "accept_sig": "ba8715613b35eb898b25cf7b0563808bdffd33444e50a5f8735aaae2f13c8b41c071f24c6e6c24d675ba377dc9a087ad44076897692c14da9d39e0910508520d"
+ }
+]

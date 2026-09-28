@@ -1,0 +1,15 @@
+name: verify
+on: [push, pull_request]
+jobs:
+  chain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install cryptography
+      - run: python -m unittest -v test_pinakium
+      - run: python tools/pinakium_verify.py examples/chain_example.json examples/artwork_demo.bin
+      - run: "! python tools/pinakium_verify.py examples/chain_tampered.json"
+      - run: "! python tools/pinakium_verify.py examples/chain_wrong_owner.json"
+      - run: "! python tools/pinakium_verify.py examples/chain_fork.json"
