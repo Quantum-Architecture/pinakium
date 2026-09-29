@@ -10,7 +10,7 @@
    },
    "image_sha256": "ab00a722cf537da73a4280ab94209f3c3b69f140ddf7c765208db8f5502726ee",
    "artist": "Demo Artist",
-   "artist_pub": "ff49d436c952eb92412c57952edd465be5a36cf5ddb2c9165a09fd9950788e8d",
+   "artist_pub": "70f647ba7e0729709a4b58fd06deeff42a959378cdcdfa7cb451722f74d430b5",
    "grading": {
     "classification": "human",
     "label": "Human-made",
@@ -19,30 +19,30 @@
    "issued_at": 1790412252,
    "notice": "Demo certificate — DEMO KEYS, not a real work."
   },
-  "sig": "f7be586b386efa94bce98e6aaebb0c07f9906678aecd6305cf2fdce75892e41a370d7c4f97cb53d533f00a4fda030a46ff60fa8492fa335da54aaa90fc3b780f"
+  "sig": "07b454443c1a7472222731f847ddd3b39c2c0b5ccd18086032e4390fbab1ec1e355d69ce03fd47886c0469d83479f5f57c28ea6f00b9e3f2f54b9fbf4a75510f"
  },
  {
   "body": {
    "type": "TRANSFER",
    "work_id": "PK-DEMO-0001",
-   "prev": "6ad87f2e27742aaa1ae131dc8eb0cdfc64c7f0575caf0c700d59c81066544fdf",
-   "from_pub": "ff49d436c952eb92412c57952edd465be5a36cf5ddb2c9165a09fd9950788e8d",
-   "to_pub": "96985de8720d3b71e772d1134e24a6bfeec8b8fc8ba1ade5d8f8ab398ee137d3",
+   "prev": "f7aba2a73ba2baeddef33dfd6510e0ed96555bc2f90d244948cca107f17df100",
+   "from_pub": "70f647ba7e0729709a4b58fd06deeff42a959378cdcdfa7cb451722f74d430b5",
+   "to_pub": "117528a0a0a1c37faa75f1cad7f9ffdbc645ac3b4b78345a68213adbf8b28705",
    "at": 1790500000
   },
-  "sig": "a45509438caa3595aa96cce4519efc3254f9276bc91408cee43bf611f2bc2a82a94e562513bbd15d3cb4eca46e49c9492201000fd406522abd00feef8f3aca0c",
-  "accept_sig": "09c5eb85923e9b675d2acc25ff9ce0dc5568ccce0b6bd24be6ed2a0089b164ef3f2a5c02d744f4abe3480268219dca5a3fca164ee1e396f526e17e1ce8a33304"
+  "sig": "517db1c1311dad4c6b79eb642406b592f600ed16f1948bbf367c05cbe5a69fbd1916c6ae2d55d6de1e9c482facb732dfb127e275ac63efdc959138573e70e50b",
+  "accept_sig": "bf72718236aaada1abd3e4ed0c5e1a7713a6d4dd1f70b1d5e670e5a3f52ca2ae64686414f5fb301b43e6f24e1d76797756fcba2dbb9756b2786bc41df240ee05"
  },
  {
   "body": {
    "type": "TRANSFER",
    "work_id": "PK-DEMO-0001",
-   "prev": "05f94fd4b938d522200d95d80d6a8c6b94fb67f0492bf4cefcd129bb9204bc35",
-   "from_pub": "607ba40b8d69b9ca8a3dc61244801a05a8726dfe8c4e1c2e7b638e720f7d4cc5",
-   "to_pub": "30b4065e84d97a03e4e3dd8a98a962975531fd13bd2eea0784a74e8db626dee6",
+   "prev": "9495294f122b2df55fa66f6c410b63b56ebb14c5e4dd5290be76671163c1f4a1",
+   "from_pub": "b3be4d84ffbaa47e83e7aca5494d1656f9ae6f0778367238d987ab704d959b67",
+   "to_pub": "6f918c2b18ac8be2e5891e695c5324a9f827185a096ec96eab3c4b02e0618065",
    "at": 1790600000
   },
-  "sig": "95f89d75d9359b6d527deda177fd04aa0a22ce85674db73572f3aafd528ed0ddc0d3898fc1d71d52efa308ff9a55a1d1adbab194c9414dbff9513ae0731b8a05",
-  "accept_sig": "b948b780c045cf6ba5e5fd69de45795bc417621cc15c7fe8be48587c32cda4d12dbbae23ab7ca80fd71765572e69784d847ddf4c9abdafe9d77a3d70532fad0e"
+  "sig": "620ceee940ea6f95aee23bfd17b71608ba561601c199b966380f750c3e22bcc9702102d8cf80c00c90540140adc5aa64fb8f55a9273558177a591dc9507c1105",
+  "accept_sig": "6c87832e6a82bf910ffeae965258766c359cb49d8a69ae9871fc2a33777b7c6b992d52107b828e8dd813b6c317497902d7a62591b4f288eaf39d45cefa37da02"
  }
 ]

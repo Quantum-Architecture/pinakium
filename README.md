@@ -1,7 +1,8 @@
-[![CI](https://github.com/Quantum-Architecture/pinakium/actions/workflows/verify.yml/badge.svg?branch=main)](https://github.com/Quantum-Architecture/pinakium/actions/workflows/verify.yml)
-
 # Pinakium — public verifier & proofs
-**The certified studio and collection.** Pinakium issues artist-signed certificates of authenticity and an ownership chain that nobody can rewrite. This repository publishes the **verifier**: anyone can check a chain, free, offline, without Pinakium.
+
+[![verify](https://github.com/Quantum-Architecture/pinakium/actions/workflows/verify.yml/badge.svg)](https://github.com/Quantum-Architecture/pinakium/actions/workflows/verify.yml)
+
+**The signed studio and collection.** Pinakium issues artist-signed certificates of authenticity and an ownership chain that nobody can rewrite. This repository publishes the **verifier**: anyone can check a chain, free, offline, without Pinakium.
 
 ## Verify a chain yourself
 ```
